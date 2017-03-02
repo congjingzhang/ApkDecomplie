@@ -1,7 +1,5 @@
 @echo off
 
-set rar="%ProgramFiles%\WinRAR\Rar.exe"
-set unrar="%programFiles%\WinRAR\UnRAR.exe"
 set winrar="%programFiles%\WinRAR\WinRAR.exe"
 
 set DEX2JAR=dex2jar-2.0\
@@ -11,6 +9,7 @@ set SRC=classes.dex
 set BAT=d2j-dex2jar.bat
 set DESTJAR=classes-dex2jar.jar
 
+REM clean active directory
 del %~dp0*.jar
 
 setlocal enabledelayedexpansion

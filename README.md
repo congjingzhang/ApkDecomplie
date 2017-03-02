@@ -5,6 +5,7 @@ Base on:
 
     dex2jar-2.0
     jd-gui-windows-1.4.0
+    WinRAR.exe
     
 Usage:
 
